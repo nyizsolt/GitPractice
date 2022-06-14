@@ -4,10 +4,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        greet();
+        public String name = "Zsolt";
+
+        greet(name);
     }
 
-    public void greet(){
-        System.out.println("Zsolt");
+    public static void greet(String name){
+        System.out.println(name);
 }
 }

@@ -6,6 +6,6 @@ public class count {
     }
 
     public static void count() {
-        System.out.printf("37");
+        System.out.printf("06");
     }
 }
