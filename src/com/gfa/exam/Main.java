@@ -4,12 +4,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        public String name = "Zsolt";
+        public String name = "Zsolt"
+        public int age = 33;
 
-        greet(name);
+        greet(name, age);
     }
 
-    public void greet(){
-        System.out.println("Greetings! (this text is added by varta)");
+    public void greet(String name, int age ){
+        System.out.println("Greetings! I am " + name + " and I am " + age + " years old.");
     }
 }
