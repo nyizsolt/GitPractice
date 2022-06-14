@@ -5,7 +5,7 @@ public class count {
         count("My age is 37");
     }
 
-    public static void count(String age) {
-        System.out.printf(age);
+    public static void count(String parameter) {
+        System.out.printf("Counting the countless " + parameter);
     }
 }
