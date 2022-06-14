@@ -5,7 +5,7 @@ public class CheeringApp {
 
     }
 
-    public static void cheer() {
-        System.out.println("Varga, Tamás");
+    public static void cheer(String name) {
+        System.out.println(name);
     }
 }
