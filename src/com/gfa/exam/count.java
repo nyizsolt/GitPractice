@@ -7,5 +7,6 @@ public class count {
 
     public static void count(String age, String text) {
         System.out.printf(age, text);
+
     }
 }
