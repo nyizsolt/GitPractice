@@ -10,7 +10,8 @@ public class Main {
         greet(name, age);
     }
 
-    public void greet(String name, int age ){
-        System.out.println("Greetings! I am " + name + " and I am " + age + " years old.");
-    }
+    public static void greet(String name){
+        System.out.println("Greetings for the " + name);
+}
+
 }
