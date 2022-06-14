@@ -8,6 +8,6 @@ public class Main {
     }
 
     public void greet(){
-        System.out.println("Zsolt");
+        System.out.println("Greetings! (this text is added by varta)");
 }
 }
