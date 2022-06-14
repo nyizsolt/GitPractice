@@ -5,7 +5,7 @@ public class CheeringApp {
 
     }
 
-    public static void cheer(String name) {
-        System.out.println(name);
+    public static void cheer(String baseLanguage) {
+        System.out.println(baseLanguage);
     }
 }

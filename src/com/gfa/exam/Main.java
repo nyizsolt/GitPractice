@@ -9,7 +9,7 @@ public class Main {
         greet(name);
     }
 
-    public static void greet(String name){
-        System.out.println(name);
-}
+    public void greet(){
+        System.out.println("Greetings! (this text is added by varta)");
+    }
 }
